@@ -1,0 +1,155 @@
+//---------------------------------------------------------------------------
+
+#ifndef Unit1H
+#define Unit1H
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <Menus.hpp>
+#include <ComCtrls.hpp>
+#include <ToolWin.hpp>
+
+#include <vector.h>
+#include <algorith.h>
+#include <ExtCtrls.hpp>
+#include <Dialogs.hpp>
+#include <jpeg.hpp>
+using namespace std;
+#include <string.h>
+struct client {
+ public:
+  char name[20], country[20], genre[20], label[20], influence[20], existence2[20], list[20], list1[20], list2[20], list3[20], list4[20], list5[20],list6[20],list7[20],list8[20];
+  int existence1;
+   friend bool operator < (const client& a,const client& b)
+		{ return a.existence1<b.existence1; }
+
+
+   friend bool operator == (const client& a,const client& b)
+		{
+		return ((a.existence1==b.existence1 || b.existence1==-1)&&
+				(strcmp(a.name,b.name)==0 || b.name[0]=='\0') &&
+				(strcmp(a.country,b.country)==0 || b.country[0]=='\0')   &&
+				(strcmp(a.genre,b.genre)==0 || b.genre[0]=='\0') &&
+				(strcmp(a.label,b.label)==0 || b.label[0]=='\0')   &&
+				(strcmp(a.influence,b.influence)==0 || b.influence[0]=='\0')   &&
+				(strcmp(a.existence2,b.existence2)==0 || b.existence2[0]=='\0')   &&
+				(strcmp(a.list,b.list)==0 || b.list[0]=='\0')   &&
+				(strcmp(a.list1,b.list1)==0 || b.list1[0]=='\0')   &&
+				(strcmp(a.list2,b.list2)==0 || b.list2[0]=='\0')   &&
+				(strcmp(a.list3,b.list3)==0 || b.list3[0]=='\0')   &&
+				(strcmp(a.list4,b.list4)==0 || b.list4[0]=='\0')   &&
+				(strcmp(a.list5,b.list5)==0 || b.list5[0]=='\0')   &&
+				(strcmp(a.list6,b.list6)==0 || b.list6[0]=='\0')   &&
+				(strcmp(a.list7,b.list7)==0 || b.list7[0]=='\0')   &&
+				(strcmp(a.list8,b.list8)==0 || b.list8[0]=='\0')   &&
+
+				(a.existence1==b.existence1 || b.existence1==-1));
+
+		   }    // поиск
+
+};
+extern vector <client> lib;
+extern int iMax,iCur;
+
+//---------------------------------------------------------------------------
+class TForm1 : public TForm
+{
+__published:	// IDE-managed Components
+	TMainMenu *MainMenu1;
+	TMenuItem *N1;
+	TMenuItem *N2;
+	TMenuItem *N3;
+	TMenuItem *N4;
+	TButton *Button5;
+	TButton *Button6;
+	TLabel *Label22;
+	TButton *Button7;
+	TSaveDialog *SaveDialog1;
+	TOpenDialog *OpenDialog1;
+	TPageControl *PageControl1;
+	TTabSheet *TabSheet1;
+	TGroupBox *GroupBox3;
+	TLabel *Label6;
+	TLabel *Label7;
+	TLabel *Label8;
+	TLabel *Label9;
+	TLabel *Label17;
+	TLabel *Label18;
+	TLabel *Label19;
+	TLabel *Label14;
+	TLabel *Label15;
+	TButton *Button8;
+	TTabSheet *TabSheet2;
+	TGroupBox *GroupBox1;
+	TLabel *Label1;
+	TLabel *Label2;
+	TLabel *Label3;
+	TLabel *Label4;
+	TEdit *Edit1;
+	TEdit *Edit2;
+	TEdit *Edit3;
+	TEdit *Edit4;
+	TLabel *Label11;
+	TLabel *Label12;
+	TEdit *Edit6;
+	TButton *Button1;
+	TButton *Button2;
+	TButton *Button3;
+	TButton *Button4;
+	TButton *Button9;
+	TEdit *Edit5;
+	TLabel *Label13;
+	TLabel *Label16;
+	TLabel *Label20;
+	TLabel *Label23;
+	TLabel *Label24;
+	TLabel *Label25;
+	TEdit *Edit7;
+	TLabel *Label26;
+	TLabel *Label27;
+	TImage *Image1;
+	TLabel *Label5;
+	TEdit *Edit8;
+	TEdit *Edit9;
+	TEdit *Edit10;
+	TEdit *Edit11;
+	TEdit *Edit12;
+	TEdit *Edit13;
+	TEdit *Edit14;
+	TEdit *Edit15;
+	TEdit *Edit16;
+	TLabel *Label10;
+	TLabel *Label21;
+	TLabel *Label28;
+	TLabel *Label29;
+	TLabel *Label30;
+	TLabel *Label31;
+	TLabel *Label32;
+	TLabel *Label33;
+	TLabel *Label34;
+	TLabel *Label35;
+	TLabel *Label36;
+	void __fastcall Button3Click(TObject *Sender);
+	void __fastcall Button5Click(TObject *Sender);
+	void __fastcall Button6Click(TObject *Sender);
+	void __fastcall Button7Click(TObject *Sender);
+	void __fastcall Button8Click(TObject *Sender);
+	void __fastcall Button1Click(TObject *Sender);
+	void __fastcall Button9Click(TObject *Sender);
+	void __fastcall Button4Click(TObject *Sender);
+	void __fastcall Button2Click(TObject *Sender);
+	void __fastcall Edit1Change(TObject *Sender);
+	void __fastcall ComboBox1Change(TObject *Sender);
+
+
+private:	// User declarations
+public:		// User declarations
+	__fastcall TForm1(TComponent* Owner);
+	void __fastcall ShowRecord();
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TForm1 *Form1;
+//---------------------------------------------------------------------------
+#endif

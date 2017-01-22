@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2013.03.25 23:38:14.651.cpp,C:\Users\Стрелок\Documents\RAD Studio\Projects\Unit1.cpp=D:\Исходники\Си\Визуальное\Бюро знакомств\Unit1.cpp</Transaction>
+    <Transaction>2013.03.25 23:38:14.651.h,C:\Users\Стрелок\Documents\RAD Studio\Projects\Unit1.h=D:\Исходники\Си\Визуальное\Бюро знакомств\Unit1.h</Transaction>
+    <Transaction>2013.03.25 23:38:14.651.dfm,C:\Users\Стрелок\Documents\RAD Studio\Projects\Unit1.dfm=D:\Исходники\Си\Визуальное\Бюро знакомств\Unit1.dfm</Transaction>
+    <Transaction>2013.03.25 23:44:12.130.cbproj,C:\Users\Стрелок\Documents\RAD Studio\Projects\Project1.cbproj=D:\Исходники\Си\Визуальное\Бюро знакомств\Бюро.cbproj</Transaction>
+    <Transaction>2013.04.11 14:40:02.792.cpp,C:\Users\Арестов аа\Desktop\Бюро знакомств\Unit2.cpp=</Transaction>
+    <Transaction>2013.04.11 14:43:46.337.cpp,C:\Users\Арестов аа\Desktop\Бюро знакомств\Unit3.cpp=C:\Users\Арестов аа\Desktop\Бюро знакомств\Unit2.cpp</Transaction>
+    <Transaction>2013.04.11 14:43:46.337.h,C:\Users\Арестов аа\Desktop\Бюро знакомств\Unit3.h=C:\Users\Арестов аа\Desktop\Бюро знакомств\Unit2.h</Transaction>
+    <Transaction>2013.04.11 14:43:46.337.dfm,C:\Users\Арестов аа\Desktop\Бюро знакомств\Unit3.dfm=C:\Users\Арестов аа\Desktop\Бюро знакомств\Unit2.dfm</Transaction>
+    <Transaction>2013.04.11 14:50:08.690.cpp,C:\Users\Арестов аа\Desktop\Бюро знакомств\Unit2.cpp=</Transaction>
+    <Transaction>2013.04.11 14:50:08.691.dfm,C:\Users\Арестов аа\Desktop\Бюро знакомств\Unit2.dfm=</Transaction>
+    <Transaction>2013.04.12 09:48:48.413.cpp,D:\Исходники\Си\Визуальное\Бюро знакомств\Unit3.cpp=D:\Исходники\Си\Визуальное\Бюро знакомств\Unit2.cpp</Transaction>
+    <Transaction>2013.04.12 09:48:48.413.h,D:\Исходники\Си\Визуальное\Бюро знакомств\Unit3.h=D:\Исходники\Си\Визуальное\Бюро знакомств\Unit2.h</Transaction>
+    <Transaction>2013.04.12 09:48:48.413.dfm,D:\Исходники\Си\Визуальное\Бюро знакомств\Unit3.dfm=D:\Исходники\Си\Визуальное\Бюро знакомств\Unit2.dfm</Transaction>
+  </Transactions>
+</BorlandProject>
